@@ -1,0 +1,35 @@
+.contrast-demos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.c1-demo {
+    padding: 1rem;
+    background-color: var(--c1);
+    color: var(--c1-contrast);
+}
+.c2-demo {
+    padding: 1rem;
+    background-color: var(--c2);
+    color: var(--c2-contrast);
+}
+.c3-demo {
+    padding: 1rem;
+    background-color: var(--c3);
+    color: var(--c3-contrast);
+}
+
+.c4-demo {
+    padding: 1rem;
+    background-color: var(--c1-contrast);
+    color: var(--c1);
+}
+.c5-demo {
+    padding: 1rem;
+    background-color: var(--c2-contrast);
+    color: var(--c2);
+}
+.c6-demo {
+    padding: 1rem;
+    background-color: var(--c3-contrast);
+    color: var(--c3);
+}

@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+}
+
+.header-wrapper {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+section.swatches {
+    padding: 1rem;
+}
+
+.swatchgrid {
+    display: flex;
+    gap:1rem;
+}
+.swatchgrid {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.swatchgrid li {
+    width: 20%;
+    aspect-ratio: 1/1;
+}
+.color-swatch-1 {
+    background-color: var(--sizzle);
+}
+.color-swatch-2 {
+    background-color: var(--indigeo);
+}
+.color-swatch-3 {
+    background-color: var(--gold);
+}
+.color-swatch-4 {
+    background-color: var(--navy);
+}
+.color-swatch-5 {
+    background-color: var(--flesh);
+}
+.color-swatch-6 {
+    background-color: var(--pumpkin);
+}
+.color-swatch-7 {
+    background-color: var(--burgundy);
+}
+.color-swatch-8 {
+    background-color: var(--forest);
+}
+.color-swatch-9 {
+    background-color: var(--mint);
+}
+.color-swatch-10 {
+    background-color: var(--paper);
+}
