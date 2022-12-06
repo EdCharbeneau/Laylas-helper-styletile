@@ -1,7 +1,7 @@
 .button {
-    color: var(--primary-color-darker);
+    color: var(--c1-contrast);
     background-color: transparent;
-    border: 2px solid var(--primary-color-darker);
+    border: 2px solid var(--c1-contrast);
     padding: 13px 50px;
     text-align: center;
     text-decoration: none;
@@ -13,42 +13,15 @@
 }
 
     .button:hover {
-        color: var(--primary-contrast-color);
-        background-color: var(--primary-color-darker);
+    color: var(--c1);
+    background-color: var(--c1-contrast);
     }
 
-.danger {
-    background-color: transparent;
-    border: 2px solid var(--danger-color);
-}
-
-    .danger:hover {
-        background-color: var(--danger-color);
+    .button.secondary {
+        border-color: transparent;
     }
-
-.warning {
-    background-color: transparent;
-    border: 2px solid var(--warning-color);
-}
-
-    .warning:hover {
-        background-color: var(--warning-color);
-    }
-
-.info {
-    background-color: transparent;
-    border: 2px solid var(--info-color);
-}
-
-    .info:hover {
-        background-color: var(--info-color);
-    }
-
-.success {
-    background-color: transparent;
-    border: 2px solid var(--success-color);
-}
-
-    .success:hover {
-        background-color: var(--success-color);
-    }
+    .button.secondary:hover {
+        color: var(--c1);
+        background-color: var(--c1-contrast);
+        border: 2px solid var(--c1-contrast);
+        }
