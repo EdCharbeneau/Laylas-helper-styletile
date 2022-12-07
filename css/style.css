@@ -16,15 +16,15 @@
   
 
   --paper: #fefdfe;
-  --sizzle: #F4436F;
-  --indigeo :#26066c;
+  --sizzle: #CA1444;
+  --indigeo :#4D4250;
   --navy :#142738;
   --flesh :#F8DAC2;
-  --burgundy: #7a2137;
+  --burgundy: #F2a297;
   --gold: #F6D169;
   --pumpkin: #E6A972;
-  --forest: #217a64;
-  --mint: #43F4C8;
+  --forest: #288D85;
+  --mint: #14CA9A;
 
   --c1: var(--sizzle);
   --c1-contrast: var(--mint);
