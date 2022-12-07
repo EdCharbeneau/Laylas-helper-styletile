@@ -93,24 +93,24 @@
 }
 
 .c4 .button {
-    border-color: var(--c1);
-    color: var(--c1);
-    background-color: var(--c1-contrast);
+    border-color: var(--c4);
+    color: var(--c4);
+    background-color: var(--c4-contrast);
 }
 
 .c4 .button:hover {
-    color: var(--c1-contrast);
-    background-color: var(--c1);
+    color: var(--c4-contrast);
+    background-color: var(--c4);
 }
 
 .c4 .button.secondary {
-    color: var(--c1);
+    color: var(--c4);
     border-color: transparent;
 }
 
 .c4 .button.secondary:hover {
-    color: var(--c1-contrast);
-    background-color: var(--c1);
+    color: var(--c4-contrast);
+    background-color: var(--c4);
     border-style: transparent;
 }
 

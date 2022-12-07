@@ -26,12 +26,17 @@
   --forest: #288D85;
   --mint: #b05574;
 
-  --c1: var(--sizzle);
-  --c1-contrast: var(--mint);
+  --c1: var(--forest);
+  --c1-contrast: var(--gold);
+
   --c2: var(--indigeo);
   --c2-contrast: var(--gold);
-  --c3: var(--navy);
+  
+  --c3: var(--sizzle);
   --c3-contrast: var(--flesh);
+
+  --c4: var(--pumpkin);
+  --c4-contrast: var(--navy);
   
   --app-background: var(--paper);
   --font-family-base: Monoton-Regular;
