@@ -5,6 +5,12 @@
 @import url(./_buttons.css);
 @import url(./utility/layouts.css);
 @import url(./utility/contrast-demos.css);
+
+@font-face {
+  font-family: Monoton-Regular;
+  src: url(./fonts/Monoton-Regular.ttf);
+}
+
 /* change these */
 :root {
   
@@ -28,7 +34,7 @@
   --c3-contrast: var(--flesh);
   
   --app-background: var(--paper);
-  --font-family-base: MouseMemoirs-Regular;
+  --font-family-base: Monoton-Regular;
   --font-size-root: 16px;
 
   --info-color: #82ccdd;

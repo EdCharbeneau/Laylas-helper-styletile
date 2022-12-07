@@ -1,7 +1,7 @@
 .button {
-    color: var(--c1-contrast);
+    color: var(--c3);
     background-color: transparent;
-    border: 2px solid var(--c1-contrast);
+    border: 2px solid var(--c3);
     padding: 13px 50px;
     text-align: center;
     text-decoration: none;
@@ -12,16 +12,148 @@
     border-radius: 5px;
 }
 
-    .button:hover {
+.button:hover {
+    color: var(--app-background);
+    background-color: var(--c3);
+}
+
+.button.secondary {
+    border-color: transparent;
+}
+
+.button.secondary:hover {
+    color: var(--app-background);
+    background-color: var(--c3);
+    border-color: var(--c3);
+}
+
+.c1 .button {
+    border-color: var(--c1-contrast);
+    color: var(--c1-contrast);
+    background-color: var(--c1);
+}
+
+.c1 .button:hover {
     color: var(--c1);
     background-color: var(--c1-contrast);
-    }
+}
 
-    .button.secondary {
-        border-color: transparent;
-    }
-    .button.secondary:hover {
-        color: var(--c1);
-        background-color: var(--c1-contrast);
-        border: 2px solid var(--c1-contrast);
-        }
+.c1 .button.secondary {
+    border-color: transparent;
+}
+
+.c1 .button.secondary:hover {
+    color: var(--c1);
+    background-color: var(--c1-contrast);
+    border-color: transparent;
+}
+
+.c2 .button {
+    border-color: var(--c2-contrast);
+    color: var(--c2-contrast);
+    background-color: var(--c2);
+}
+
+.c2 .button:hover {
+    color: var(--c2);
+    background-color: var(--c2-contrast);
+}
+
+.c2 .button.secondary {
+    color: var(--c2-contrast);
+    border-color: transparent;
+}
+
+.c2 .button.secondary:hover {
+    border-style: transparent;
+    color: var(--c2);
+    background-color: var(--c2-contrast);
+}
+
+.c3 .button {
+    border-color: var(--c3-contrast);
+    color: var(--c3-contrast);
+    background-color: var(--c3);
+}
+
+.c3 .button:hover {
+    color: var(--c3);
+    background-color: var(--c3-contrast);
+}
+
+.c3 .button.secondary {
+    color: var(--c3-contrast);
+    border-color: transparent;
+}
+
+.c3 .button.secondary:hover {
+    color: var(--c3);
+    background-color: var(--c3-contrast);
+    border-style: transparent;
+}
+
+.c4 .button {
+    border-color: var(--c1);
+    color: var(--c1);
+    background-color: var(--c1-contrast);
+}
+
+.c4 .button:hover {
+    color: var(--c1-contrast);
+    background-color: var(--c1);
+}
+
+.c4 .button.secondary {
+    color: var(--c1);
+    border-color: transparent;
+}
+
+.c4 .button.secondary:hover {
+    color: var(--c1-contrast);
+    background-color: var(--c1);
+    border-style: transparent;
+}
+
+.c5 .button {
+    border-color: var(--c2);
+    color: var(--c2);
+    background-color: var(--c2-contrast);
+}
+
+.c5 .button:hover {
+    color: var(--c2-contrast);
+    background-color: var(--c2);
+}
+
+.c5 .button.secondary {
+    color: var(--c2);
+    border-color: transparent;
+}
+
+.c5 .button.secondary:hover {
+    color: var(--c2-contrast);
+    background-color: var(--c2);
+    border-style: transparent;
+}
+
+.c6 .button {
+    border-color: var(--c3);
+    color: var(--c3);
+    background-color: var(--c3-contrast);
+}
+
+.c6 .button:hover {
+    color: var(--c3-contrast);
+    background-color: var(--c3);
+}
+
+.c6 .button.secondary {
+    color: var(--c3);
+    border-color: transparent;
+}
+
+.c6 .button.secondary:hover {
+    color: var(--c3-contrast);
+    background-color: var(--c3);
+    border-style: transparent;
+}
